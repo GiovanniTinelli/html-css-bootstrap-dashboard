@@ -1,0 +1,103 @@
+
+/*GLOBAL*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class^='container'],[class^='col'] {
+  background-color: rgba(77, 203, 79, 0.25);
+  border: 1px solid #ffbaba;
+}
+
+/*HEADer*/
+#head-bar{
+  width: 100%;
+}
+#head-bar, nav{
+  list-style: none;
+}
+#head-bar img{
+  width: 50px;
+}
+#head-bar li{
+padding-left: 20px;
+}
+#logo-mobile{
+  width: 50px;
+}
+#bell i{
+  color: rgb(255, 140, 0);
+  padding-right: 5px;
+}
+
+
+/*main*/
+main{
+position: relative;
+}
+
+/*JUMBO*/
+.jumbo{
+  height: 5rem;
+  position: absolute;
+  right: 0px;
+  top: 65px;
+  left: 15vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*TABELLA*/
+.container.table{
+  position: absolute;
+  top: 150px;
+  left: 15vw;
+  right: 0;
+  margin: 5px;
+}
+.table button{
+  border: solid grey;
+}
+.container-buttom{
+  background-color: green;
+  color: white;
+  border-radius: 25%;
+}
+#orange{
+  background-color: rgb(255, 106, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+/*LEFT BAR*/
+.left-bar .container{
+  width: 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-left: 0;
+  color: white;
+  background-color: rgb(14, 14, 45);
+  background-image: url(img\ 3/sidebar-bg.png)
+}
+
+
+
+
+/*FOOTER*/
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 481px) {
+  .left-bar .container .row div span{
+    display: none;
+    
+  }
+}
